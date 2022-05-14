@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "```shell docker-compose run --rm app sh -c \"npm init -y && npm install apollo-server graphql\" ``` ```shell docker-compose up ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.7.0",
+    "graphql": "^16.5.0"
+  }
+}
